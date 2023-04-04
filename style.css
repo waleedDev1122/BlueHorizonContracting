@@ -1,0 +1,316 @@
+@font-face {
+    font-family: "IbarraRealNovaRegular";
+    src: url(assets/fonts/IbarraRealNova-Regular.ttf);
+}
+
+@font-face {
+    font-family: "IbarraRealNovaBold";
+    src: url(assets/fonts/IbarraRealNova-Bold.ttf);
+}
+
+body {
+    font-family: "IbarraRealNovaRegular";
+}
+
+.navbar {
+    height: 94px;
+}
+
+.white-btn {
+    background-color: #FFFFFF !important;
+    color: #0051FF !important;
+}
+
+.header-box-shadow {
+    box-shadow: 0px 10px 20px 0px #f8f8f8;
+}
+
+.light-background {
+    background-color: #dcd8d7;
+}
+
+.navy-blue-background {
+    background: #0B1643;
+}
+
+.color-white {
+    color: #ffffff !important;
+}
+
+.color-blue-light-background {
+    background-color: #E5FFFF !important;
+}
+
+.color-blue-light {
+    color: #00FFFF !important;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.color-light-grey {
+    background-color: #f8f8f8;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.container {
+    width: 1200px;
+    max-width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header-padding {
+    padding-top: 94px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    padding: 0px 5px;
+}
+
+.nav-item:last-child {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.nav-link {
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #0051FF !important;
+}
+
+.main-section {
+    height: 500px;
+    overflow-y: hidden;
+    position: absolute;
+}
+
+.head-container {
+    height: 100%;
+}
+
+.main-head {
+    padding: 20px 40px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 13px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.main-head h1 {
+    font-family: 'IbarraRealNovaRegular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 47px;
+    line-height: 142%;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.sub-head {
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 13px;
+    position: relative;
+    z-index: 1;
+}
+
+.sub-head h2 {
+    font-family: 'IbarraRealNovaRegular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 142%;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.container-first-head {
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 128%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.05em;
+    color: #01003C;
+}
+
+.container-text {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 170%;
+    letter-spacing: 0.14em;
+    color: #000000;
+}
+
+.divider{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 2px;
+    background-color: #ccc;
+    width: 70%;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.testimonial-section{
+    height: auto;
+    overflow: hidden;
+}
+
+.welcome-container {
+    background: #FFFFFF;
+    border-radius: 23px;
+    padding: 40px 60px;
+}
+
+.welcome-container .head {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 170%;
+    text-align: center;
+    letter-spacing: 0.35em;
+    color: #fde300;
+}
+
+.welcome-container .text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 170%;
+    text-align: center;
+    letter-spacing: 0.14em;
+    color: #000000;
+}
+
+.blue-horizon-color {
+    color: #030088 !important;
+}
+
+.testimonials-head {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 178.5%;
+    /* or 80px */
+
+    text-align: center;
+    letter-spacing: 0.4em;
+
+    color: #FFFFFF;
+
+}
+
+.testimonials-text {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 174.5%;
+    /* or 35px */
+
+    letter-spacing: 0.155em;
+
+    color: #FFFFFF;
+}
+
+.carousel-width{
+    padding: 20px 80px;
+}
+
+.footer-section {
+    background: #FFFAC8;
+}
+
+.contact-container {
+    background: rgba(215, 198, 255, 0.32);
+    opacity: 0.7;
+    border-radius: 8px;
+    padding: 30px;
+    width: 80%;
+}
+
+.contact-container span {
+    word-break: break-all;
+    font-weight: 600;
+font-size: 14px;
+line-height: 120%;
+/* or 14px */
+
+letter-spacing: 0.06em;
+
+color: #000000;
+}
+
+.contact-form {
+    width: 80%;
+}
+
+.contact-form h3 {
+    font-weight: 600;
+font-size: 20px;
+line-height: 142%;
+/* or 28px */
+
+letter-spacing: 0.03em;
+text-align: center;
+color: #000000;
+}
+
+.form-control {
+    background: rgba(215, 198, 255, 0.32);
+}
+
+.submit-btn {
+    background: #FEDB5C;
+border-radius: 41px;
+font-weight: 800;
+font-size: 15px;
+line-height: 142%;
+/* or 21px */
+
+letter-spacing: 0.03em;
+
+color: #A6513D;
+padding: 10px 20px;
+border: none;
+}
+
+.designed-by {
+    background: #FEDB5C;
+    height: 60px;
+}
+
+.designed-by span {
+    font-weight: 400;
+font-size: 20px;
+line-height: 125%;
+/* or 30px */
+
+text-align: center;
+
+color: #000000;
+}
+
+.designed-by a {
+    text-decoration: none;
+    color: #000000 !important;
+}
