@@ -257,6 +257,7 @@ line-height: 120%;
 letter-spacing: 0.06em;
 
 color: #000000;
+display: inline-block;
 }
 
 .contact-form {
@@ -433,5 +434,9 @@ color: #000000;
 
     .mobile-logo {
         width: 130px;
+    }
+
+    .contact-container{
+        width: 100%;
     }
 }
