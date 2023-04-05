@@ -329,13 +329,13 @@ color: #000000;
 
 @media (max-width: 767.98px) {
     .main-section {
-        height: auto;
+        height: 210px;
         padding: 20px 0px;
     }
 
 
     .main-head{
-        padding: 5px 10px;
+        padding: 15px 20px;
     }
 
     .main-head h1{
@@ -345,7 +345,7 @@ color: #000000;
 
     .sub-head{
         margin-top: 10px;
-        padding: 5px 10px;
+        padding: 10px 15px;
     }
     .sub-head h2{
         font-size: 12px;
