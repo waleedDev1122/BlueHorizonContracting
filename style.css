@@ -130,6 +130,7 @@ body {
     border-radius: 13px;
     position: relative;
     z-index: 1;
+    margin-top: 20px;
 }
 
 .sub-head h2 {
@@ -147,8 +148,6 @@ body {
     font-weight: 400;
     font-size: 45px;
     line-height: 128%;
-    display: flex;
-    align-items: center;
     letter-spacing: -0.05em;
     color: #01003C;
 }
@@ -245,7 +244,7 @@ body {
     opacity: 0.7;
     border-radius: 8px;
     padding: 30px;
-    width: 80%;
+    width: 90%;
 }
 
 .contact-container span {
@@ -313,4 +312,126 @@ color: #000000;
 .designed-by a {
     text-decoration: none;
     color: #000000 !important;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.padding-start-30 {
+    padding-left: 30px;
+}
+
+.padding-end-30 {
+    padding-right: 30px;
+}
+
+@media (max-width: 767.98px) {
+    .main-section {
+        height: auto;
+        padding: 20px 0px;
+    }
+
+
+    .main-head{
+        padding: 5px 10px;
+    }
+
+    .main-head h1{
+        font-size: 14px;
+        line-height: 100%;
+    }
+
+    .sub-head{
+        margin-top: 10px;
+        padding: 5px 10px;
+    }
+    .sub-head h2{
+        font-size: 12px;
+        line-height: 100%;
+    }
+
+    .container-first-head {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: -0.05em;
+        color: #01003C;
+        text-align: center;
+    }
+
+    .divider {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 2px;
+        background-color: #ccc;
+        width: 100%;
+    }
+
+    .container-text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.14em;
+        text-align: center;
+        color: #000000;
+    }
+
+    .mobile-margin-top-20 {
+        margin-top: 20px;
+    }
+
+    .padding-end-30 {
+        padding-right: 0px;
+    }
+
+    .padding-start-30{
+        padding-left: 0px;
+    }
+
+    .text-right{
+        text-align: center;
+    }
+
+    .testimonials-text {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 174.5%;
+        letter-spacing: 0.155em;
+        color: #FFFFFF;
+    }
+
+    .carousel-width {
+        padding: 20px 40px;
+    }
+
+    .testimonial-section{
+        background: navy;
+    }
+
+    .mobile-display-none{
+        display: none;
+    }
+
+    .testimonials-head {
+        font-size: 16px;
+    }
+
+    .welcome-container {
+        background: #FFFFFF;
+        border-radius: 23px;
+        padding: 20px 15px;
+    }
+
+    .welcome-container .head {
+        font-size: 16px;
+    }
+
+    .welcome-container .text {
+        font-size: 12px;
+    }
+
+    .mobile-logo {
+        width: 130px;
+    }
 }
